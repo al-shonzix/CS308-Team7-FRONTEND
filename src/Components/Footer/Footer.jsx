@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import { AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai'
 import { FaPinterestP } from 'react-icons/fa'
 import { TiSocialFacebook } from 'react-icons/ti'
-import logo from '../../assets/images.jpg'
+import logo from '../../assets/images.png'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
