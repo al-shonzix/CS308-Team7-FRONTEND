@@ -1,0 +1,155 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  animation: fadeIn 1s ease-in-out; /* Background fade-in animation */
+}
+
+.container {
+  padding: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #343a40;
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.navbar:hover {
+  background-color: #495057; /* Darker background color on hover */
+}
+
+.nav-link {
+  color: hsla(348, 91%, 40%, 0.639) !important;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #61dafb;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  visibility: visible;
+  width: 100%; /* Full width underline on hover */
+}
+
+.nav-link:hover {
+  color: #61dafb !important;
+}
+
+.navbar-brand {
+  color: #d5c2c2 !important;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.navbar-brand:hover {
+  color: #ff6b6b !important; /* Different color on hover */
+}
+
+.nav-tabs .nav-link:hover {
+  color: #61dafb !important;
+  background-color: #5a6268;
+}
+
+.home-container {
+  padding: 40px 20px;
+  background-image: url('https://source.unsplash.com/1600x900/?airplane');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  border-radius: 8px;
+  animation: fadeInUp 1s ease-in-out; /* Fade-in-up animation */
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+}
+
+.card {
+  padding: 2em;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #dad2d2;
+  animation: fadeIn 0.5s ease-in-out; 
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table, .th, .td {
+  border: 1px solid #ddd;
+}
+
+.th, .td {
+  padding: 8px;
+  text-align: left;
+}
+
+.seat-plan {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.seat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  transition: background-color 0.2s;
+}
+
+.seat:hover {
+  background-color: #e2e6ea;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
