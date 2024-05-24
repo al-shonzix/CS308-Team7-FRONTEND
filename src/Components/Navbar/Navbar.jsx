@@ -5,7 +5,7 @@ import { BsPhoneVibrate } from 'react-icons/bs'
 import {SiConsul} from 'react-icons/si'
 
 
-import images from '../../assets/images.jpg'
+import images from '../../assets/images.png'
 
 const Navbar = () => {
 
