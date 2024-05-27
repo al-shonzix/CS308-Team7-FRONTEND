@@ -3,6 +3,7 @@ import { AiFillYoutube, AiOutlineTwitter } from 'react-icons/ai'
 import { FaPinterestP } from 'react-icons/fa'
 import { TiSocialFacebook } from 'react-icons/ti'
 import logo from '../../assets/images.png'
+import { Link } from 'react-router-dom'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -32,60 +33,16 @@ const Footer= ()=> {
                 <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
                     <span className="linkTitle">Information</span>
                     <li>
-                        <a href="">Home</a>
+                        <Link to="/App">Home</Link>
                     </li>
                     <li>
-                        <a href="">Explore</a>
+                        <Link to="/App">Explore</Link>
                     </li>
                     <li>
-                        <a href="">Flight Status</a>
+                        <Link to="/Travel">Travel</Link>
                     </li>
                     <li>
-                        <a href="">Travel</a>
-                    </li>
-                    <li>
-                        <a href="">Book A Flight</a>
-                    </li>
-                    <li>
-                        <a href="">Manage Your Bookings</a>
-                    </li>
-                </div>
-
-                <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
-                    <span className="linkTitle">Quick Guide</span>
-                    <li>
-                        <a href="">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="">How to</a>
-                    </li>
-                    <li>
-                        <a href="">Route Map</a>
-                    </li>
-                    <li>
-                        <a href="">Baggage</a>
-                    </li>
-                    <li>
-                        <a href="">Vehicles</a>
-                    </li>
-                    <li>
-                        <a href="">Crew</a>
-                    </li>
-                </div>
-
-                <div data-aos='fade-up' data-aos-duration='2500' className="footerLinks">
-                    <span className="linkTitle">Information</span>
-                    <li>
-                        <a href="">Chauffeur</a>
-                    </li>
-                    <li>
-                        <a href="">Destination</a>
-                    </li>
-                    <li>
-                        <a href="">Careers</a>
-                    </li>
-                    <li>
-                        <a href="">Transportation</a>
+                        <Link to="/App2">Book A flight</Link>
                     </li>
                 </div>
             </div>

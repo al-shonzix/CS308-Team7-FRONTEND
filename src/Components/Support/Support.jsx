@@ -16,7 +16,7 @@ const Support= ()=> {
             <div className= "sectionContainer">
 
                 <div className="titlesDiv">
-                    <small>travel support</small>
+                    <span>Travel support</span>
                     <h2>Plan your travel with confidence</h2>
                     <p>Find help iwth your bookings and travel plans, wee what to expect along your Journey!</p>                
                 </div>
@@ -45,7 +45,7 @@ const Support= ()=> {
                     </div>
 
                     <div data-aos='fade-left' data-aos-duration='2000' className="imgDiv">
-                        <img src={gridImage}  />                  
+                        <img src={gridImage}/>                  
                     </div>
                 </div>
 

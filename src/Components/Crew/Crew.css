@@ -1,0 +1,44 @@
+/* src/Components/Crew/Crew.css*/
+
+.crew-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crew-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .crew-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .crew-table th,
+  .crew-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .crew-table th {
+    background: #22a54f;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .crew-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .crew-table tr:hover {
+    background: #f1f1f1;
+  }
+  

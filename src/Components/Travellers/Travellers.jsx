@@ -69,7 +69,7 @@ const Travellers= ()=> {
                             <div className="travellerPicture">
                                 <img src={travellerImage} className="travellerImage"/>                      
                             </div>
-                            <div className="travellername">
+                            <div className="travellerName">
                                 <span>{travellerName}</span>
                                 <p>{socialLink}</p>
                             </div>

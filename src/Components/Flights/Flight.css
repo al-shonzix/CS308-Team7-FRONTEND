@@ -1,0 +1,44 @@
+/* src/Components/Flights/Flight.css*/
+
+.roster-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .roster-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .flight-table th,
+  .flight-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .flight-table th {
+    background: #22a54f;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .flight-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .flight-table tr:hover {
+    background: #f1f1f1;
+  }
+  
