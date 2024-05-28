@@ -1,0 +1,23 @@
+.flight-selector-container {
+  padding: 20px;
+}
+
+.flight-card {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.flight-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
